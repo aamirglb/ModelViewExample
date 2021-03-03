@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file>ListDelegate.qml</file>
+        <file>main.qml</file>
+        <file>ListHighlight.qml</file>
+    </qresource>
+</RCC>
