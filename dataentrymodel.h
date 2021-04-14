@@ -16,8 +16,8 @@ public: // QAbstractItemModel interface
     virtual int rowCount(const QModelIndex &parent) const;
     virtual QVariant data(const QModelIndex &index, int role) const;
     
-private:
-    QList<QString> m_data
+private
+    QList<QString> m_data;
 };
 
 #endif // DATAENTRYMODEL_H
