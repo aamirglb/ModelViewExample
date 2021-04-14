@@ -4,6 +4,7 @@
 #include <QtCore>
 #include <QtGui>
 
+// Model Class
 class DataEntryModel : public QAbstractListModel
 {
     Q_OBJECT
