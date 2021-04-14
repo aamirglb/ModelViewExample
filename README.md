@@ -19,7 +19,7 @@ make
 ```
 
 ### Build using CMake tool
-```
+```shell
 # clone this repo 
 git clone https://github.com/aamirglb/ModelViewExample.git
 cd ModelViewExample
