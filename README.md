@@ -6,7 +6,7 @@ This project demonstrate how to use C++ model in Qt Quick view. This example is 
 The project can be built using either `qmake` or `cmake` build tool.
 
 ### Build using qmake tool
-```shell
+```
 # clone this repo 
 git clone https://github.com/aamirglb/ModelViewExample.git
 cd ModelViewExample
@@ -19,7 +19,7 @@ make
 ```
 
 ### Build using CMake tool
-```shell
+```
 # clone this repo 
 git clone https://github.com/aamirglb/ModelViewExample.git
 cd ModelViewExample
