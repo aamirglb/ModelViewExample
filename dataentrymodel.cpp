@@ -3,7 +3,7 @@
 DataEntryModel::DataEntryModel(QObject *parent)
     : QAbstractListModel(parent)
 {
-    // initialize our data (QList<QString>) with a list of color names
+    // initialize data (QList<QString>) with a list of color names
     m_data = QColor::colorNames();
 }
 
@@ -14,7 +14,7 @@ DataEntryModel::~DataEntryModel()
 int DataEntryModel::rowCount(const QModelIndex &parent) const
 {
     Q_UNUSED(parent);
-    // return our data count
+    // return data count
     return m_data.count();
 }
 
